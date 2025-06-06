@@ -42,9 +42,16 @@ npm install -g single-file-cli
 
 ## Usage with Claude Code
 
-### Add the MCP server
+### Quick Install (from PyPI)
 ```bash
-claude mcp add singlefile-mcp -s user -- uvx --from /home/kab/src/single-file_mcp singlefile-mcp
+claude mcp add singlefile-mcp -s user -- uvx singlefile-mcp
+```
+
+This will automatically install and run the package from PyPI, similar to how Brave Search works!
+
+### Development Install (from local directory)
+```bash
+claude mcp add singlefile-mcp -s user -- uvx --from /path/to/single-file_mcp singlefile-mcp
 ```
 
 ### Remove old server (if upgrading)

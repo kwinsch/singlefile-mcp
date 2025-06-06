@@ -9,7 +9,7 @@ description = "MCP server for intelligent web content extraction using single-fi
 readme = "README.md"
 license = "MIT"
 authors = [
-    {name = "Single-File MCP Contributors"},
+    {name = "Kevin Bortis", email = "kevin@bortis.ch"},
 ]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -32,8 +32,9 @@ dependencies = [
 singlefile-mcp = "singlefile_mcp_server:run"
 
 [project.urls]
-Homepage = "https://github.com/your-username/singlefile-mcp"
-Issues = "https://github.com/your-username/singlefile-mcp/issues"
+Homepage = "https://github.com/kwinsch/singlefile-mcp"
+Issues = "https://github.com/kwinsch/singlefile-mcp/issues"
+Repository = "https://github.com/kwinsch/singlefile-mcp"
 
 [tool.setuptools]
 py-modules = ["singlefile_mcp_server"]
