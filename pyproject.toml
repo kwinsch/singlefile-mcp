@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "singlefile-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "MCP server for intelligent web content extraction using single-file and trafilatura"
 readme = "README.md"
 license = "MIT"
