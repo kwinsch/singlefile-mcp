@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "singlefile-mcp"
+version = "0.1.0"
+description = "MCP server for intelligent web content extraction using single-file and trafilatura"
+readme = "README.md"
+license = "MIT"
+authors = [
+    {name = "Single-File MCP Contributors"},
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+keywords = ["mcp", "model-context-protocol", "web-scraping", "content-extraction", "single-file", "trafilatura", "ai", "llm"]
+requires-python = ">=3.8"
+dependencies = [
+    "mcp==1.0.0",
+    "trafilatura==2.0.0",
+]
+
+[project.scripts]
+singlefile-mcp = "singlefile_mcp_server:run"
+
+[project.urls]
+Homepage = "https://github.com/your-username/singlefile-mcp"
+Issues = "https://github.com/your-username/singlefile-mcp/issues"
+
+[tool.setuptools]
+py-modules = ["singlefile_mcp_server"]
